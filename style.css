@@ -1,0 +1,174 @@
+/* index.html*/
+
+#google{
+    width : 20%;
+}
+.google_logo
+{
+    display : flex;
+    justify-content: center;
+    margin-bottom : 2%;
+    margin-top : 1.5%;
+}
+
+#searchbar
+{
+    width: 40%;
+    padding : 1.2%;
+    border-radius: 9999px;
+    border : 1px solid rgb(184, 184, 162);
+}
+
+.submit
+{
+    background-color:gainsboro;
+    position : relative;
+    margin : 2%;
+    padding : 1.5%;
+    border-radius: 4px;
+    border : 1px solid gainsboro;
+    font-size: 14px;
+    color:darkslategray;
+}
+.submit:hover
+{
+    border : 1px solid rgb(107, 102, 102);
+    cursor: pointer;
+}
+
+.buttons
+{
+    display : flex;
+    margin : 1.5%;
+    width : 50%;
+    justify-content: center;
+}
+
+.container 
+{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#head
+{
+    display : flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+#head li
+{
+    margin : 9px;
+    color : black;
+    font-family: sans-serif;
+    font-size :90%;
+}
+#head li:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*advanced_search.html*/
+
+.advanced_search
+{
+    margin : 2%;
+    display : flex;
+}
+#advsrc 
+{
+    margin-left : 2%;
+    font-size: x-large;
+    font-family: sans-serif;
+    color : #d93025;
+}
+
+td 
+{
+    padding-bottom : 1.5%;
+    font-family: sans-serif;
+}
+table
+{
+    width : 90%;
+}
+
+.input_field
+{
+    padding : 1%;
+    width : 95%;
+    border : 1.2px inset rgb(230, 230, 230);
+    border-radius: 1px;
+}
+.one
+{
+    width : 15%;
+    font-size: small;
+}
+.two
+{
+    width : 45%;
+}
+.three 
+{
+    width : 60%;
+    font-size: small;
+}
+
+hr
+{
+    color :rgb(250, 250, 250);
+    margin-top : 2%;
+    margin-bottom: 4%;
+    border : solid 1px rgb(235, 235, 235);
+}
+
+#heading
+{
+    font-weight: 700;
+}
+
+#find_pages
+{
+    font-size: large;
+    font-weight: 100;
+}
+
+#logo_in_advsrc
+{
+    width : 10%;
+    display : block;
+    margin : 1%;
+    margin-bottom : 3%;
+    cursor: pointer;
+}
+
+.search 
+{
+    background-color: rgb(116, 116, 187);
+    position : relative;
+    margin : 0.5%;
+    padding : 0.7%;
+    border-radius: 4px;
+    border : 1px solid gainsboro;
+    font-size: 12px;
+    font-weight: 900;
+    color:white;
+    margin-left: 43%;
+}
+.search:hover
+{
+    background-color :rgb(130, 130, 201);
+    border : 1px blue solid;
+}

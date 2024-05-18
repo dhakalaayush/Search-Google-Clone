@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Search</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <form action="https://www.google.com/search">
+
+            <div class = "header">
+                <ul id = "head">
+                    <a href = "index.html"><li>Google</li></a>
+                </ul>
+            </div>
+
+        <font id = "advsrc">Advanced Search</font>
+        <hr>
+        <div class = "advanced_search">
+            <table class = "table">
+                <tr id = "heading">
+                    <td class = "one" id = "find_pages">Find pages with...</td>
+                    <td class = "two">  </td>
+                    <td class = "three">To do this in the searchbox</td>
+                </tr>
+                <tr>
+                    <td class = "one">all these words: </td>
+                     <td class = "two"><input type = "text" class = "input_field" name = "as_q"></td>
+                     <td class = "three">Type the important words: tri-colour rat terrier</td>
+                </tr>
+                <tr>
+                    <td class = "one">this exact word or phrase: </td>
+                    <td class = "two"><input type = "text" class = "input_field" name = "as_epq"></td>
+                    <td class = "three">Put exact words in quotes: "rat terrier"</td>
+                </tr>
+                <tr>
+                    <td class = "one">any of these words: </td>
+                    <td class = "two"><input type = "text" class = "input_field" name = "as_oq"></td>
+                    <td class = "three">Type OR between all the words you want: miniature OR standard</td>
+                </tr>
+                <tr>
+                    <td class = "one">none of these words: </td>
+                    <td class = "two"><input type = "text" class = "input_field" name = "as_eq"></td>
+                    <td class = "three">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                </tr>
+            </table>
+        </div>
+        <input type="submit" value="Advanced Search" class = "search">
+
+
+        </form>
+    </body>
+</html>
